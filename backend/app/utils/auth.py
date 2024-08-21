@@ -18,8 +18,10 @@ def createAccessToken(data: dict):
 
 def decodeAccessToken(token: str):
     try:
+        print("jwt")
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
+        print("username",username)
         if username is None:
             return "jwt, username not found!"
         return username

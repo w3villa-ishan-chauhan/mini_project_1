@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-class verifyOtp(BaseModel):
+
+class googleUser(BaseModel):
     email:str
-    email_otp:str
+    first_name:str
     contact:str
-    otp:str

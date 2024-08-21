@@ -1,0 +1,43 @@
+.address-map-container {
+  padding: 0;
+  margin: 0;
+
+  .address-form {
+    background: transparent;
+
+    padding: 0;
+    .form-control {
+      border: none;
+    }
+    .address-container {
+    }
+    .map-container {
+      padding: 14px;
+    
+      .address-info{
+        h2{
+          color: rgb(255, 251, 30);
+          font-size: 20px;
+          font-weight: 900;
+         
+          p{
+            padding-top: 10px;
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+        
+        backdrop-filter: blur(3px);
+        background: rgba(255, 255, 255, 0.207);
+        height:250px;
+        width: 100%;
+        padding-left: 0;
+        padding: 4px;
+      }
+      .map-box{
+        margin-left: 10px;
+       
+      }
+    }
+  }
+}
